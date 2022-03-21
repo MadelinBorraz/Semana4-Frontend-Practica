@@ -1,10 +1,10 @@
 :root {
-	--main-bg-color: #cc1735;
+	--main-bg-color: #ce77cb;
 	--secondary-bg-color: #f2f2f2;
-	--main-screen-bg-color: #98cb98;
+	--main-screen-bg-color: #a2bdeb;
 	--secondary-screen-bg-color: #9e9d9d;
 	--main-buttons-color: #585858;
-	--square-buttons-color: #7ca9f7;
+	--square-buttons-color: #d5a1b6;
 }
 
 .red {
@@ -14,14 +14,14 @@
 	background-color: #fecb65;
 }
 .green {
-	background-color: #32cb65;
+	background-color: #336a46;
 }
 .blue {
 	background-color: #3298cb;
 }
 
 .light-blue {
-	background-color: #85bdfe;
+	background-color: #2c66a9;
 }
 .light-red {
 	background-color: #fe98cb;
@@ -30,7 +30,7 @@
 	background-color: #fefecb;
 }
 .light-green {
-	background-color: #98fe00;
+	background-color: #4fa47b;
 }
 
 * {
@@ -72,7 +72,7 @@ body {
 	overflow: hidden;
 	width: 60px;
 	height: 60px;
-	border: 2px solid black;
+	border: 2px solid rgba(255, 0, 238, 0.688);
 	border-radius: 50%;
 	position: relative;
 	animation: shake 1.5s ease-in infinite;
@@ -352,7 +352,7 @@ input {
 	height: 30px;
 	border-radius: 5px;
 	border: solid black 2px;
-	background-color: #3ab47d;
+	background-color: #4b8c6f;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -675,7 +675,7 @@ input {
 	grid-template-rows: repeat(2, 1fr);
 }
 .stat-stats {
-	color: #f2d532;
+	color: #b19d29;
 	font-size: 5.5px;
 	text-align: center;
 }
